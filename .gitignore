@@ -9,7 +9,7 @@ pids
 *.seed
 
 # Dependency directories
-node_modules
+node_modules/
 node_modules_org
 
 # Optional npm cache directory
