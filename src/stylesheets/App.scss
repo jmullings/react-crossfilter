@@ -1,0 +1,29 @@
+.app {
+  text-align: center;
+}
+
+.appHeader {
+  background-color: #222;
+  height: 100px;
+  padding: 35px;
+  color: white;
+}
+
+.appContent {
+  background-color: #fff;
+  width: 1024px;
+  padding: 15px;
+  color: black;
+  // border: red solid 1px;  /*testing*/
+  position: relative;
+  margin: 0px auto;
+}
+
+.chartTitle {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}

@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.bubble-chart-container {
+  flex: 1;
+  position: relative;
+  display: flex;
+  user-select: none;
+  justify-content: center;
+
+  .bubble-chart-text {
+    /* Center text in the circle, and hide any overflow */
+    .bubble-label {
+      text-align: center;
+      overflow: hidden;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 50%;
+      will-change: left, top, height, width;
+      /* Show the overflow when hovering over a label */
+      &:hover {
+        overflow: visible;
+        font-weight: bold;
+      }
+      /* Optional, but recommended - reduce the size of text on medium bubbles */
+      &.medium {
+        font-size: 0.8em;
+      }
+      /* Optional, but recommended - hide the text on small bubbles */
+      &.small {
+        font-size: 0;
+        /* Make sure to unhide the text when hovering */
+        &:hover {
+          font-size: 0.8em;
+        }
+      }
+    }
+  }
+}
