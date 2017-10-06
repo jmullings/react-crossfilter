@@ -4,7 +4,7 @@
   "description": "An Interactive Dashboard built with D3, DC, Node & Express, MongoDB, and React",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon --exec babel-node server.js",
+    "start": "node server.js",
     "build": "rm -r public/bundle.js; webpack-dev-server  --config webpack.config.js --hot --inline",
     "dev": "webpack -wd"
   },
