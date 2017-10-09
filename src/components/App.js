@@ -405,7 +405,7 @@ class App extends Component {
                           onOverlayClicked={this._executeOnOverlayClicked}
                           ref="dialogWithCallBacks"
                           title="Please select data-set for review:">
-                    <img src={path.join(__dirname, '..') + '/img/ex-chart.png'}
+                    <img src={'./img/ex-chart.png'}
                          style={{height: 150, position: "middle"}}/>
                     <br/>
                     <hr/>
